@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { UserDAO } from '../DAO/LoginDAO';
+import { UserDAO } from '../DAO/UserDAO';
 import { CryptoService } from '../service/CryptoService';
 import { UserService } from '../service/UserService';
 export class SignUpController {

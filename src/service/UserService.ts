@@ -1,5 +1,5 @@
 import { createHash } from 'crypto';
-import { UserDAO } from '../DAO/LoginDAO';
+import { UserDAO } from '../DAO/UserDAO';
 import { JWTService } from './JWTService';
 import ErrorStatus from '../utils/ErrorStatus';
 import { CryptoService } from './CryptoService';
