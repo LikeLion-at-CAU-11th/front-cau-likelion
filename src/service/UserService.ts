@@ -2,6 +2,7 @@ import { createHash } from 'crypto';
 import { UserDAO } from '../DAO/LoginDAO';
 import { JWTService } from './JWTService';
 import ErrorStatus from '../utils/ErrorStatus';
+import { CryptoService } from './CryptoService';
 
 export class UserService {
   static async getUserInfo(token) {
@@ -18,5 +19,14 @@ export class UserService {
     if (result.id === id && result.pw === compareHash)
       return JWTService.make(result.id);
     throw new ErrorStatus('로그인 실패', 401);
+  }
+
+  static async signup(id, pw, name, age) {
+    const { hashedPassword, salt } = CryptoService.getSalt(pw);
+    try {
+      await UserDAO.signUp(id, hashedPassword, name, age, salt);
+    } catch (err) {
+      throw new ErrorStatus('회원가입 실패', 500);
+    }
   }
 }
