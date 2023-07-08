@@ -17,7 +17,7 @@ export class UserService {
       .digest('hex');
 
     if (result.id === id && result.pw === compareHash)
-      return JWTService.make(result.id);
+      return await JWTService.make(result.id);
     throw new ErrorStatus('로그인 실패', 401);
   }
 
