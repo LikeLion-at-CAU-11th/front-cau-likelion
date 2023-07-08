@@ -1,21 +1,7 @@
-import { Request, Response, Router } from 'express';
-import { UserDAO } from '../DAO/LoginDAO';
-import { CryptoService } from '../service/CryptoService';
+import { Router } from 'express';
+import { SignUpController } from '../controller/SignupContoller';
+import errorHandler from '../controller/errorHandler';
+
 const router = Router();
-router.post('/', async (req: Request, res: Response) => {
-  const { id, pw, name, age } = req.body;
-  const { hashedPassword, salt } = CryptoService.getSalt(pw);
-  try {
-    await UserDAO.signUp(id, hashedPassword, name, age, salt);
-    res.status(200).json({
-      status: 200,
-      message: '회원가입 성공',
-    });
-  } catch (err) {
-    res.status(500).json({
-      status: 500,
-      message: '회원가입 실패',
-    });
-  }
-});
+router.post('/', errorHandler(SignUpController.post));
 export { router as signup };
