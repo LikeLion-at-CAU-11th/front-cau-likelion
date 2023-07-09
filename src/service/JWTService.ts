@@ -40,7 +40,7 @@ export class JWTService {
       { access: accessToken, id: id },
       process.env.SECRET,
       {
-        expiresIn: '14d',
+        expiresIn: '3m',
       }
     );
     return { accessToken, refreshToken };
