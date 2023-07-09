@@ -4,17 +4,18 @@ import ErrorStatus from '../utils/ErrorStatus';
 export class MemberController {
   static async get(req: Request, res: Response) {
     const { page, gender, stack } = req.query;
+    const result = {
+      message: 'success',
+    } as any;
     if (page) {
-      const data = MemberService.page(page);
-      res.json(data);
+      result.data = MemberService.page(page);
     } else if (gender) {
-      const data = MemberService.gender(gender);
-      res.json(data);
+      result.data = MemberService.gender(gender);
     } else if (stack) {
-      const data = MemberService.stack(stack);
-      res.json(data);
+      result.data = MemberService.stack(stack);
     } else {
       throw new ErrorStatus('잘못된 요청입니다', 400);
     }
+    res.json(result);
   }
 }

@@ -1,0 +1,173 @@
+[
+  {
+    "qid": 0,
+    "question": "멋쟁이 사자처럼 중앙대학교의 10기 회장님은 누굴까요?",
+    "answerList": [
+      {
+        "aid": 0,
+        "content": "윤선영"
+      },
+      {
+        "aid": 1,
+        "content": "이성민"
+      },
+      {
+        "aid": 2,
+        "content": "최윤한"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "qid": 1,
+    "question": "멋쟁이 사자처럼의 대표는 누굴까요?",
+    "answerList": [
+      {
+        "aid": 0,
+        "content": "이두희"
+      },
+      {
+        "aid": 1,
+        "content": "이두목"
+      },
+      {
+        "aid": 2,
+        "content": "레인보우 지숙"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "qid": 2,
+    "question": "11기 기획 운영진 권수연님은 찰떡같은 별명을 갖고 있는데요. 무엇일까요?",
+    "answerList": [
+      {
+        "aid": 0,
+        "content": "권영숙"
+      },
+      {
+        "aid": 1,
+        "content": "권현숙"
+      },
+      {
+        "aid": 2,
+        "content": "권정숙"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "qid": 3,
+    "question": "멋쟁이 사자처럼 11기 (운영진 포함) 본전공이 소프트웨어학부인 사람은 몇 명일까요?",
+    "answerList": [
+      {
+        "aid": 0,
+        "content": "12명"
+      },
+      {
+        "aid": 1,
+        "content": "13명"
+      },
+      {
+        "aid": 2,
+        "content": "14명"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "qid": 4,
+    "question": "11기 회장 변주현님이 술자리에서 짠 할 때 외치는 구호는 무엇일까요?",
+    "answerList": [
+      {
+        "aid": 0,
+        "content": "아자아자! 멋사만이 살 길이다! 짜니짜니 해!"
+      },
+      {
+        "aid": 1,
+        "content": "하나 둘 셋 짠 ~"
+      },
+      {
+        "aid": 2,
+        "content": "짜니짜니! 짜니짜니! 짠~"
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "qid": 5,
+    "question": "멋쟁이사자처럼 사이드프로젝트 팀의 이름은 무엇일까요?",
+    "answerList": [
+      {
+        "aid": 0,
+        "content": "푸하하"
+      },
+      {
+        "aid": 1,
+        "content": "상중하"
+      },
+      {
+        "aid": 2,
+        "content": "중하하"
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "qid": 6,
+    "question": "멋쟁이 사자처럼 백엔드 팀장 이수웅님이 가장 좋아하는 공간은 어디일까요?",
+    "answerList": [
+      {
+        "aid": 0,
+        "content": "집"
+      },
+      {
+        "aid": 1,
+        "content": "학교"
+      },
+      {
+        "aid": 2,
+        "content": "노래방"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "qid": 7,
+    "question": "멋쟁이 사자처럼 프론트엔드 운영진 김나예님의 갱얼쥐 이름은 무엇일까요?",
+    "answerList": [
+      {
+        "aid": 0,
+        "content": "달곰이"
+      },
+      {
+        "aid": 1,
+        "content": "말랑이"
+      },
+      {
+        "aid": 2,
+        "content": "몽구"
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "qid": 8,
+    "question": "멋쟁이 사자처럼의 막내 운영진과 첫째 운영진의 나이 차는 얼마일까요?",
+    "answerList": [
+      {
+        "aid": 0,
+        "content": "4살"
+      },
+      {
+        "aid": 1,
+        "content": "5살"
+      },
+      {
+        "aid": 2,
+        "content": "6살"
+      }
+    ],
+    "answer": 1
+  }
+]
