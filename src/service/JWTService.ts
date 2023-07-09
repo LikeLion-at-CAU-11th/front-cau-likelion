@@ -22,7 +22,7 @@ export class JWTService {
     const { access, refreshToken } = token;
     return jwt.verify(refreshToken, process.env.SECRET, (err, decoded) => {
       if (err) {
-        throw err;
+        throw new ErrorStatus('refresh 토큰이 만료되었습니다.', 401);
       }
       if (decoded.access == access) return decoded;
       else throw new ErrorStatus('유효하지 않은 refreshToken입니다.', 401);
