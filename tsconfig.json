@@ -9,6 +9,7 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "esModuleInterop": true,
-    "preserveValueImports": false
+    "preserveValueImports": false,
+    "resolveJsonModule": true
   }
 }

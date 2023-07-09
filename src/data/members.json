@@ -1,0 +1,231 @@
+[
+  {
+    "id": 0,
+    "name": "박준형",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "male",
+    "stack": "frontend"
+  },
+  {
+    "id": 1,
+    "name": "고민지",
+    "major": "경영",
+    "generation": 11,
+    "gender": "female",
+    "stack": "frontend"
+  },
+  {
+    "id": 2,
+    "name": "박경빈",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "female",
+    "stack": "frontend"
+  },
+  {
+    "id": 3,
+    "name": "박규한",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "male",
+    "stack": "frontend"
+  },
+
+  {
+    "id": 4,
+    "name": "윤예원",
+    "major": "경영",
+    "generation": 11,
+    "gender": "female",
+    "stack": "frontend"
+  },
+
+  {
+    "id": 5,
+    "name": "전영은",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "female",
+    "stack": "frontend"
+  },
+  {
+    "id": 6,
+    "name": "조민규",
+    "major": "경영",
+    "generation": 11,
+    "gender": "male",
+    "stack": "frontend"
+  },
+  {
+    "id": 7,
+    "name": "이재욱",
+    "major": "물리",
+    "generation": 11,
+    "gender": "male",
+    "stack": "frontend"
+  },
+  {
+    "id": 8,
+    "name": "최재영",
+    "major": "산업보안",
+    "generation": 11,
+    "gender": "male",
+    "stack": "frontend"
+  },
+  {
+    "id": 9,
+    "name": "박진영",
+    "major": "경제",
+    "generation": 11,
+    "gender": "male",
+    "stack": "backend"
+  },
+  {
+    "id": 10,
+    "name": "나상현",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "male",
+    "stack": "backend"
+  },
+  {
+    "id": 11,
+    "name": "민병록",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "male",
+    "stack": "backend"
+  },
+  {
+    "id": 12,
+    "name": "박소은",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "female",
+    "stack": "backend"
+  },
+  {
+    "id": 13,
+    "name": "최은수",
+    "major": "사회",
+    "generation": 11,
+    "gender": "female",
+    "stack": "backend"
+  },
+
+  {
+    "id": 14,
+    "name": "배영경",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "female",
+    "stack": "backend"
+  },
+  {
+    "id": 15,
+    "name": "양희철",
+    "major": "산업보안",
+    "generation": 11,
+    "gender": "male",
+    "stack": "backend"
+  },
+  {
+    "id": 16,
+    "name": "이기웅",
+    "major": "에너지시스템",
+    "generation": 11,
+    "gender": "male",
+    "stack": "backend"
+  },
+  {
+    "id": 17,
+    "name": "정현서",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "male",
+    "stack": "backend"
+  },
+
+  {
+    "id": 18,
+    "name": "한윤호",
+    "major": "소프트웨어",
+    "generation": 11,
+    "gender": "female",
+    "stack": "backend"
+  },
+  {
+    "id": 19,
+    "name": "박재윤",
+    "major": "경영",
+    "generation": 11,
+    "gender": "female",
+    "stack": "pm"
+  },
+  {
+    "id": 20,
+    "name": "김솔",
+    "major": "경영",
+    "generation": 11,
+    "gender": "female",
+    "stack": "pm"
+  },
+  {
+    "id": 21,
+    "name": "신채현",
+    "major": "미디어커뮤니케이션",
+    "generation": 11,
+    "gender": "female",
+    "stack": "pm"
+  },
+  {
+    "id": 22,
+    "name": "박채연",
+    "major": "간호",
+    "generation": 11,
+    "gender": "female",
+    "stack": "pm"
+  },
+
+  {
+    "id": 23,
+    "name": "유승빈",
+    "major": "사회기반시스템",
+    "generation": 11,
+    "gender": "female",
+    "stack": "pm"
+  },
+  {
+    "id": 24,
+    "name": "노지우",
+    "major": "영어영문",
+    "generation": 11,
+    "gender": "female",
+    "stack": "design"
+  },
+  {
+    "id": 25,
+    "name": "강태권",
+    "major": "경영",
+    "generation": 11,
+    "gender": "male",
+    "stack": "design"
+  },
+  {
+    "id": 26,
+    "name": "백은비",
+    "major": "미디어커뮤니케이션",
+    "generation": 11,
+    "gender": "female",
+    "stack": "design"
+  },
+  {
+    "id": 27,
+    "name": "김성민",
+    "major": "교육",
+    "generation": 11,
+    "gender": "female",
+    "stack": "design"
+  }
+]
