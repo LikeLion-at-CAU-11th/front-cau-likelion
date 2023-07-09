@@ -8,5 +8,9 @@ export class TestController {
     result.data = data;
     res.json(result);
   }
-  static async post() {}
+  static async post(req: Request, res: Response) {
+    const { answer } = req.body;
+    const data = TestService.getQuizResult(answer);
+    res.json({ message: 'success', data });
+  }
 }
