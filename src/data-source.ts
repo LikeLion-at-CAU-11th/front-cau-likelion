@@ -2,6 +2,7 @@ import 'reflect-metadata';
 import { DataSource } from 'typeorm';
 import { User } from './entity/User';
 import dotenv from 'dotenv';
+import { FCMToken } from './entity/FCMToken';
 dotenv.config();
 export const AppDataSource = new DataSource({
   type: 'mysql',
@@ -12,7 +13,7 @@ export const AppDataSource = new DataSource({
   database: 'user',
   synchronize: true,
   logging: false,
-  entities: [User],
+  entities: [User, FCMToken],
   migrations: [],
   subscribers: [],
 });

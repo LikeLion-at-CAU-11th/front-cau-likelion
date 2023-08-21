@@ -5,6 +5,7 @@ import { refresh } from './refresh';
 import { signup } from './signup';
 import { user } from './user';
 import { liontest } from './liontest';
+import { fcmtoken } from './fcmtoken';
 const router = Router();
 
 router.use('/', login);
@@ -13,5 +14,6 @@ router.use('/mypage', mypage);
 router.use('/refresh', refresh);
 router.use('/user', user);
 router.use('/liontest', liontest);
+router.use('/fcmtoken', fcmtoken);
 
 export default router;
