@@ -18,7 +18,7 @@ export const sendFCMNotification = async (data: NotificationData) => {
     // 얘는 기존 파이어베이스 api 키
     projectId: process.env.PROJECT_ID,
     // 얘네는 새로 구해온 서비스 계정 비공개 키
-    privateKey: process.env.FIREBASE_PRIVATE_KEY,
+    privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
     clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
   };
   console.log(serviceAccount);
