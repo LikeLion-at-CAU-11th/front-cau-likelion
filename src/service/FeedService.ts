@@ -31,8 +31,8 @@ export class FeedService {
           title: '새로운 글이 작성되었어요!',
           body: `${newItems[0].writer}${
             newItems.length - 1
-              ? `외${newItems.length - 1}명이 글을 작성했어요`
-              : `가 글을 작성했어요!`
+              ? `외${newItems.length - 1}명이 글을 작성했으니 읽어보삼요`
+              : `의 글을 읽어보삼요`
           }`,
           image:
             'https://blog.cau-likelion.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcau%EC%82%AC%EC%9E%90.0fecfbbb.png&w=3840&q=75',
