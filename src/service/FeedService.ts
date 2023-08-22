@@ -25,6 +25,7 @@ export class FeedService {
     const defaultRss = await FeedService.FeedDAO.find();
     const newItems = getNewItems(defaultRss as unknown as feed[], result);
     if (newItems) {
+      console.log(newItems);
       const notification = {
         data: {
           title: '새로운 글이 작성되었어요!',
