@@ -51,7 +51,8 @@ export class FeedService {
         return feed;
       });
       await FeedService.FeedDAO.save(feeds);
-      await sendFCMNotification(notification);
+      const fcm = await sendFCMNotification(notification);
+      console.log(fcm);
       return result;
     } else {
       return result;
