@@ -21,7 +21,7 @@ export const sendFCMNotification = async (data: NotificationData) => {
     privateKey: process.env.FIREBASE_PRIVATE_KEY,
     clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
   };
-
+  console.log(serviceAccount);
   if (!admin.apps.length) {
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
