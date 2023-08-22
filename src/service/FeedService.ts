@@ -24,7 +24,7 @@ export class FeedService {
     const result = await getRss(blogList);
     const defaultRss = await FeedService.FeedDAO.find();
     const newItems = getNewItems(defaultRss as unknown as feed[], result);
-    if (newItems) {
+    if (newItems.length) {
       console.log(newItems);
       const notification = {
         data: {
