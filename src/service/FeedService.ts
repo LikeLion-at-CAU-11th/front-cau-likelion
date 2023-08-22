@@ -34,8 +34,7 @@ export class FeedService {
               ? `외${newItems.length - 1}명이 글을 작성했으니 읽어보삼요`
               : `의 글을 읽어보삼요`
           }`,
-          image:
-            'https://blog.cau-likelion.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcau%EC%82%AC%EC%9E%90.0fecfbbb.png&w=3840&q=75',
+          image: 'https://blog.cau-likelion.org/icons/icon-192x192.png',
           click_action: 'open_page',
         },
       };
