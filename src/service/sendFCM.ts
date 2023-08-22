@@ -42,6 +42,7 @@ export const sendFCMNotification = async (data: NotificationData) => {
     ...data,
     tokens: tokenList,
   };
+  console.log(notificationData);
 
   // 푸시 발송
   // sendMulticast()는 여러개의 토큰으로 푸시를 전송한다.
