@@ -2,6 +2,7 @@ import Parser from 'rss-parser';
 import { AppDataSource } from '../data-source';
 import { Feed } from '../entity/Feed';
 import { JSDOM } from 'jsdom';
+import { sendFCMNotification } from './sendFCM';
 
 export interface feed {
   writer: string;
@@ -24,7 +25,19 @@ export class FeedService {
     const defaultRss = await FeedService.FeedDAO.find();
     const newItems = getNewItems(defaultRss as unknown as feed[], result);
     if (newItems) {
-      console.log(newItems);
+      const notification = {
+        data: {
+          title: '새로운 글이 작성되었어요!',
+          body: `${newItems[0].writer}${
+            newItems.length
+              ? `외${newItems.length - 1}명이 글을 작성했어요`
+              : `가 글을 작성했어요!`
+          }`,
+          image:
+            'https://blog.cau-likelion.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcau%EC%82%AC%EC%9E%90.0fecfbbb.png&w=3840&q=75',
+          click_action: 'open_page',
+        },
+      };
       await FeedService.FeedDAO.clear();
       const feeds = result.map((posting) => {
         const feed = new Feed();
@@ -37,6 +50,7 @@ export class FeedService {
         return feed;
       });
       await FeedService.FeedDAO.save(feeds);
+      await sendFCMNotification(notification);
       return result;
     } else {
       return result;
