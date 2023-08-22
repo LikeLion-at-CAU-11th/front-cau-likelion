@@ -30,7 +30,7 @@ export class FeedService {
         data: {
           title: '새로운 글이 작성되었어요!',
           body: `${newItems[0].writer}${
-            newItems.length
+            newItems.length - 1
               ? `외${newItems.length - 1}명이 글을 작성했어요`
               : `가 글을 작성했어요!`
           }`,
